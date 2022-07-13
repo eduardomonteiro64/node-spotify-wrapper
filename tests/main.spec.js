@@ -34,19 +34,19 @@ describe("Spotify Wrapper", () => {
       expect(search).to.exist;
     });
 
-    it("should exist the search method", () => {
+    it("should exist the search albums method", () => {
       expect(searchAlbums).to.exist;
     });
 
-    it("should exist the search method", () => {
+    it("should exist the search artists method", () => {
       expect(searchArtists).to.exist;
     });
 
-    it("should exist the search method", () => {
+    it("should exist the search tracks method", () => {
       expect(searchTracks).to.exist;
     });
 
-    it("should exist the search method", () => {
+    it("should exist the search playlists method", () => {
       expect(searchPlaylists).to.exist;
     });
   });
